@@ -1,7 +1,7 @@
 ---
 template: blog-post
 title: "IDS/IPS Evading Techniques using Invalid TCP checksum "
-slug: "IDS/IPS Evading Techniques using Invalid TCP checksum "
+slug: IDS/IPS Evading Techniques
 date: 2022-07-07 13:24
 description: "IDS/IPS Evading Techniques using Invalid TCP checksum "
 featuredImage: /assets/network-2402637_1280.jpg
