@@ -5,7 +5,7 @@ title: About Me
 ---
 <span style="color:blue"> **`> Whoami`** </span>
 
-`Mozshetty | DC FAN | Anime Fan | GCIH`
+`Manjesh Shetty | SANS GCFA | SANS GCIH | Works at Data Security Council of India | Deputed to CCITR, CID HQ | DC FAN | Anime Fan | Blogger `
 
 #### `> ls`
 
