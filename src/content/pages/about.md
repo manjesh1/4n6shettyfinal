@@ -15,6 +15,8 @@ title: About Me
 
 `4n6shetty(at)pm(dot)me`
 
+`Twitter: `[`@Mozshetty`](www.twitter.com/mozshetty)``
+
 `Nickname: Your_IRC_name |
 Chat Server: irc.freenode.net | Channel Name: #4n6shetty |
 Chat Server Port: 6697 |
