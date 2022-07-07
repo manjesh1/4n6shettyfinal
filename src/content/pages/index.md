@@ -1,12 +1,15 @@
 ---
 template: index-page
 slug: /
-title: Wyatt Morriss
-tagline: Graphic Designer
-featuredImage: /assets/4n6shetty19.png
+title: 4N6SHETTY
+tagline: Tech Blog!
+featuredImage: /assets/4-1-.png
 cta:
   ctaText: Know more
   ctaLink: /about
 ---
+**4n6@shetty:~$** whoami
 
-He is a award winning gaming graphic designer, based in sunny side of California. Working as Principal designer at Bethesda
+**Mozshetty**
+
+``
