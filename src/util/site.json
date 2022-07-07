@@ -2,11 +2,11 @@
   "meta": {
     "title": "4N6SHETTY",
     "titleTemplate": "%s",
-    "description": "A starter to launch your blazing fast personal website and a blog, Built with Gatsby and Netlify CMS. Made with ❤ by Stackrole",
-    "siteUrl": "https://foundation.stackrole.com",
+    "description": "",
+    "siteUrl": "https://www.4n6shetty.com",
     "image": "/assets/4-1-.png",
-    "iconimage": "/assets/stackrole.png",
-    "twitterUsername": "@stackrole"
+    "iconimage": "/assets/4-1-.png",
+    "twitterUsername": "@4N6SHETTY"
   },
   "ga": "UA-XXXXXXXXX-X"
 }
