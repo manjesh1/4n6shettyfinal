@@ -11,13 +11,7 @@ const Footer = () => (
     }}
   >
     <div className="container">
-      <p>
-        4N6SHETTY  by mozshetty {" "}
-        <span className="icon -love">
-          <RiHeart2Line />
-        </span>{" "}
-        by <Link to="/">4n6shetty.com</Link>
-      </p>
+      <p>4N6SHETTY <span className="icon -love"><RiHeart2Line/></span> by <Link to="/">mozshetty</Link></p>
     </div>
   </footer>
 )
