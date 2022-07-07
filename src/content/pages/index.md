@@ -3,7 +3,7 @@ template: index-page
 slug: /
 title: Wyatt Morriss
 tagline: Graphic Designer
-featuredImage: /assets/4n6shettylogo1.png
+featuredImage: /assets/4n6shetty19.png
 cta:
   ctaText: Know more
   ctaLink: /about
