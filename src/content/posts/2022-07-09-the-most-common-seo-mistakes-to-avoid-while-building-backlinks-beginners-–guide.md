@@ -2,7 +2,7 @@
 template: blog-post
 title: The Most Common SEO Mistakes to Avoid While Building Backlinks -
   [Beginners –Guide]
-slug: "The-Most-Common-SEO-Mistakes-to-Avoid-While-Building-Backlinks "
+slug: "/The-Most-Common-SEO-Mistakes-to-Avoid-While-Building-Backlinks "
 date: 2022-07-09 12:28
 description: The Most Common SEO Mistakes to Avoid While Building Backlinks -
   [Beginners –Guide]
