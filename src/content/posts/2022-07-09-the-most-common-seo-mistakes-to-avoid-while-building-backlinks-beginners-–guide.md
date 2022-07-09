@@ -12,18 +12,16 @@ Hello Folks, Here I go with little off-topic as our niche topic is cybersecurity
 
 Let's dive into the world of SEO, as Ancient Proverb goes  *“Slow and steady wins the SEO race.”*
 
-
-
-<!--\[if !mso]>
+<!--\\[if !mso]>
 <style>
 v\:* {behavior:url(#default#VML);}
 o\:* {behavior:url(#default#VML);}
 w\:* {behavior:url(#default#VML);}
 .shape {behavior:url(#default#VML);}
 </style>
-<!\[endif]-->
+<!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -63,9 +61,9 @@ w\:* {behavior:url(#default#VML);}
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -644,9 +642,9 @@ w\:* {behavior:url(#default#VML);}
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 10]>
+<!--\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -665,19 +663,15 @@ w\:* {behavior:url(#default#VML);}
 	color:black;
 	mso-ansi-language:EN-GB;}
 </style>
-<!\[endif]-->
+<!\\[endif]-->
 
 <!--StartFragment-->
 
 There are a lot of SEO mistakes people make while deploying SEO campaign especially those who are new to SEO, as they don't have patience and they don't know the head and tail of SEO.
 
- 
-
 To begin with, let's talk about Link Building. Link Building is a core part of SEO strategy and many people make mistakes while executing this process. Before [penguin update](http://searchengineland.com/library/google/google-penguin-update), people used to build thousands of spam backlinks and their keywords used to rank first in SERP.
 
 But, now SEO completely depends on the quality of content rather than quantity of spam backlinks pointing towards it. After the launch of Penguin update an important algorithm was designed to eradicate aggressive webspam tactics and many websites those were already performing blackhat SEO to build backlinks had lost a lot of their keyword position rank in SERP. Now [SEO has been moved to whole new level,](http://www.gopcsoft.com/hottest-seo-trends-and-developments-that-are-set-to-rock-the-world/) which is currently going through many changes, so we have to step forward carefully to avoid committing any SEO mistake.
-
- 
 
 ## [](<>)The 3 SEO Mistakes to be avoided while building a Backlinks:
 
@@ -693,109 +687,55 @@ These spam backlinks are temporary and disappear after a period of time. These b
 
 So I would really suggest you to just stay away from such tools to avoid spammy link .
 
-
-
 **\#2 . Paid Links :**
-
-
 
 ![](/assets/picture22.png)
 
-
-
- 
-
 Paid Link always lie in a grey area. Many Companies offer paid backlinks from high PR pages and people usually fall on it and buy this link. But google is against these paid links. Earlier people used to pay money to buy high authority backlinks, but now they pay to remove these backlinks because of Google penalty.
-
- 
 
 Let me elaborate this with an instance -- people who have bought backlinks from  Fiverr for few dollars had suffered a lot because of these backlinks, as they were of low quality with zero activity.
 
- 
-
 Because of these paid backlinks many websites have faced a huge drop in their site traffic.
-
- 
 
 These paid links are neither black hat SEO nor white hat SEO but are definitely violating the guidelines of Google. So it is better to stay away from this, since it can instantly lead to a Google penalty.
 
- 
-
 Matt Cutts Explain [How Google Handles Paid Directories](https://www.youtube.com/watch?v=rKUlVquEImc)
 
- 
-
- 
-
-**\#3:Free Directories submission:**
-
- 
+ **\#3:Free Directories submission:**
 
 ![](/assets/picture32.png)
 
- 
-
 Many directories will offer you free backlinks but some directories are just spam and many directories were even blacklisted by google.
-
- 
 
 Submitting your website to free directories just to get free backlinks doesn’t work any longer. Furthermore, your website might be penalized since Google is getting really aggressive with low-quality SEO tactics like free directory submissions,  which can negatively impact your site in search ranking. Infact, 50% of the free directory submission websites are no longer to be found in Google. Hence it is better to avoid such low-quality tactics or submit your website only on trusted directories.
 
- 
-
 ## [](<>)How to Remove bad backlinks :
-
-
 
 The link removal process can be time-consuming and frustrating, if you want to get rid of thousands of links.
 
- 
-
 1. **Use Google Disavow Tool to remove bad Backlinks.**
-
-
 
 Google has introduced a tool called Disavow tool in October of 2013 , which is an advanced feature of webmaster. This tool allows you to manage certain bad links that point to your site so that you can instruct  google crawlers not to crawl your website through spam links. You can find this tool [here](https://www.google.com/webmasters/tools/disavow-links-main?pli=1).
 
-
-
 **Note:** Using Disavow tool  incorrectly can harm your website. Please don’t completely trust on any Automated spam link audit tool, not even Moz Open Site Explorer as all these tools happens to have some flaws.You should manually verify the spam links and add it to your disavowing links list. You have to follow each steps carefully. A single mistake can cost you a lot.
-
- 
 
 2. **Have Patience sometimes Webmaster will do your work by removing spam Backlinks.**
 
-
-
 If thousands of spam links are linking to your website, Webmaster will remove these backlinks slowly.
-
-
 
 3. **Build Good Links rather than removing Bad Links.**
 
+`One good backlink = Ten bad links.`
 
-
-One good backlink = Ten bad links.
-
-So , just apply this formula and build good backlinks rather than focusing on removing bad links. Your content is the key to good backlinks. So work hard on your content. Remember one thing “write for the audience not for Google”. 
-
- 
+So , just apply this formula and build good backlinks rather than focusing on removing bad links. Your content is the key to good backlinks. So work hard on your content. Remember one thing “write for the audience not for Google”.  
 
 4.  **Ask Website Owner to remove the link**
 
-
-
- Find the  details of the website owner of the spam link which is pointing to your website and request him to remove the link in a polite manner. This method is easy and safe and this strategy works very well for me.
-
- 
+Find the  details of the website owner of the spam link which is pointing to your website and request him to remove the link in a polite manner. This method is easy and safe and this strategy works very well for me.
 
 ### [](<>) Right Tools for Right Job:
 
-
-
 These are the tools that would help you to monitor Backlinks and remove the backlinks.
-
- 
 
 1. Remove’em
 2. LinkDelete
@@ -804,8 +744,6 @@ These are the tools that would help you to monitor Backlinks and remove the back
 5. Monitor Backlinks
 
 These Tools only help you to audit backlinks and it will not do your work .Removing or building backlink process is time consuming so, you need to take each step carefully while moving ahead.
-
- 
 
 **Wrap up** :
 
