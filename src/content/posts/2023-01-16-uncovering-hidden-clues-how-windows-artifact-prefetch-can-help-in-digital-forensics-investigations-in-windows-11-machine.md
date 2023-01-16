@@ -50,6 +50,14 @@ Example: TOR.EXE-3D8AA4A9.pf
 > Note 2: To Determine File Creation and last Executed time minus 10 seconds from the given file system timestamps, as the file doesn’t get created until 10 seconds after each execution as the prefetch service will monitor everything the application touches first 10 seconds of execution.
 > Last Accessed: Last execution Time (Same as last run time embedded in .pf file)
 
+**There are several free and open-source tools that can be used to parse Windows Prefetch files and extract useful information for forensic analysis. Some popular tools include:**
+
+1. PECmd by EricZimmerman
+
+
+2. Windows Prefetch Parser by Tzworks
+3. WinPrefetchView by Nirsoft
+
 **Case  Scenario: P﻿refetch Analysis on Latest Windows 11 OS**
 
 ![](/assets/processing-tor.exe-3d8aa4a9.pf-created-on-2023-01-15-094139-modified-on-2023-01-15-094403-last-accessed-on-2023-01-15-094530-executable-name-tor.exe-hash-3d8aa4a9-file-size-bytes-78-084-version-windows-10-or-w-3-.png)
