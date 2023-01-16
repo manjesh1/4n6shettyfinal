@@ -14,6 +14,8 @@ Prefetch is a feature in Windows operating systems that stores information about
 **While analysing the prefetch files, a forensic investigator can gather several types of evidence, including:**
 
 1. **Programs that have been recently run on the computer:** The prefetch files contain a list of programs that have been run on a computer, along with the number of times they have been run and the date and time of the last execution.
+
+
 2. **Deleted Programs:** Prefetch files can contain information about files that have been deleted programs from a computer (Uninstalled), which may be useful in cases where evidence has been intentionally removed.
 3. **Execution time of programs:** Prefetch Files contain embedded information about the time taken to execute the programs, which can be useful in identifying the different run times of the programs.
 4. **Execution of Broken Programs:** Even an Attempt to execution of the programs will be added as an entry in the prefetch folder.
@@ -31,12 +33,14 @@ Prefetch is a feature in Windows operating systems that stores information about
 
 **Prefetch Files Extension:** .pf
 
+`Windows 8 and Above – 1024 Prefetch Files are stored`
+
 **Prefetch File Name Algorithm:** <EXE Name>-<Hexadecimal hash of File Path>
 Example: TOR.EXE-3D8AA4A9.pf
 
-**Hashing function** – produces a hash or multiple hashes that are building the final part of a Prefetch file name
+**Hashing function** – produces a hash or multiple hashes that are building the final part of a Prefetch file name. As shown below diagram, I have executed the **prefetchhashcalculator** perl program that calculates that hashes of different prefetch file for more information [please refer article published on hexacorn](http://www.hexacorn.com/blog/2012/06/13/prefetch-hash-calculator-a-hash-lookup-table-xpvistaw7w2k3w2k8/)
 
-`Windows 8 and Above – 1024 Prefetch Files are stored`
+![](/assets/screenshot_104.png "Prefetch file naming algorithm ")
 
 **Prefetch Embedded Information:** 9 Number of Run Times Program Executed (Maximum 8 Execution Times + 1 File System Creation Time of the Prefetch File as shown in the a.bove diagram.
 
@@ -54,8 +58,6 @@ Example: TOR.EXE-3D8AA4A9.pf
 **There are several free and open-source tools that can be used to parse Windows Prefetch files and extract useful information for forensic analysis. Some popular tools include:**
 
 1. PECmd by EricZimmerman
-
-
 2. Windows Prefetch Parser by Tzworks
 3. WinPrefetchView by Nirsoft
 
@@ -107,8 +109,6 @@ We can observe in above figure, the results fetched by the PECMD command for the
 **If you wish to disable prefetch, you can do so by following these steps:**
 
 1. Press the **Windows key + R** to open the Run dialog box
-
-
 2. Type **"regedit"** and press Enter
 3. In the Registry Editor, navigate to the following key: `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\PrefetchParameters`
 4. Locate the value named "**EnablePrefetcher"** and double-click it
@@ -128,6 +128,3 @@ The EnablePrefetcher setting in Windows can have different values, which control
 •	3: Enables both application launch and boot prefetching. This is the default value.
 
 In conclusion, the Windows Prefetch files are valuable artifacts for forensic investigators as they can provide useful information about the execution of programs on a computer. The information contained in the Prefetch files can be used to reconstruct the activities of a user and to determine whether certain programs were used in connection with criminal activity. Some important information that can be obtained from analyzing Prefetch files include the names of the executed programs, their execution path, the timestamp of the execution, and the number of times the program has been run. Additionally, Prefetch files can be used to detect any anomalies such as the execution of unknown programs or execution at unusual times.The number of prefetch files on a system is limited, which means that older files may be deleted over time. To prevent the loss of important evidence, it is important to prioritize the collection of the prefetch directory , during acquisiton process, to ensure that the most recent files are preserved.
-
-
-
