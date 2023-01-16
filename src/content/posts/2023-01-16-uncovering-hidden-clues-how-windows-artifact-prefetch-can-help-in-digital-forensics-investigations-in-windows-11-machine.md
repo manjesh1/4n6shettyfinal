@@ -3,7 +3,7 @@ template: blog-post
 title: "Uncovering Hidden Clues: How Windows  Artifact Prefetch Can Help in
   Digital Forensics Investigations in Windows 11 Machine"
 slug: /How-Windows-Artifact-Prefetch-Can-Help-in-Digital-Forensics-Investigations-in-Windows-11-Machine
-date: 2023-01-16 10:00
+date: 2023-01-15 10:00
 description: prefetch
 featuredImage: /assets/red-and-white-pizzeria-menu-business-presentation.png
 ---
@@ -67,7 +67,7 @@ In our experiment, we export the selected prefetch file (TOR.exe) based on above
 
 Tool Used: PECMD (Prefetch Explorer Command Line v1.5.0.0) by Eric Zimmerman 
 
-![](/assets/processing-tor.exe-3d8aa4a9.pf-created-on-2023-01-15-094139-modified-on-2023-01-15-094403-last-accessed-on-2023-01-15-094530-executable-name-tor.exe-hash-3d8aa4a9-file-size-bytes-78-084-version-windows-10-or-w-4-.png)
+![](/assets/processing-tor.exe-3d8aa4a9.pf-created-on-2023-01-15-094139-modified-on-2023-01-15-094403-last-accessed-on-2023-01-15-094530-executable-name-tor.exe-hash-3d8aa4a9-file-size-bytes-78-084-version-windows-10-or-w-4-.png "Filtered output: Analyis of Tor.exe Prefetch file using PEcmd ")
 
 **Results:**
 
@@ -88,7 +88,7 @@ The new version of the tool even indicates Windows Version as 11 and Executable 
 
 SDelete is a data wiping tool and an excellent Antiforensic tool as it is signed by Microsoft. SDelete is a tool that irrecoverably deletes files, conforming to U.S. Department of Defense standard DoD 5220.22-M for the handling of classified information.
 
-![](/assets/processing-tor.exe-3d8aa4a9.pf-created-on-2023-01-15-094139-modified-on-2023-01-15-094403-last-accessed-on-2023-01-15-094530-executable-name-tor.exe-hash-3d8aa4a9-file-size-bytes-78-084-version-windows-10-or-w-5-.png)
+![](/assets/processing-tor.exe-3d8aa4a9.pf-created-on-2023-01-15-094139-modified-on-2023-01-15-094403-last-accessed-on-2023-01-15-094530-executable-name-tor.exe-hash-3d8aa4a9-file-size-bytes-78-084-version-windows-10-or-w-5-.png "Filtered output: Analyis of SDelete.exe Prefetch file using PEcmd ")
 
 We can observe in above figure, the results fetched by the PECMD command for the SDELETE.EXE-FDA5B8E8.pf prefetch file concludes that SDelete has touched File's and Directory of the Tor Browser (Installed Folder) within 10 seconds (i.e: SDelete has Wiped Tor Browser Installed Folder which was saved in the Desktop)
 
