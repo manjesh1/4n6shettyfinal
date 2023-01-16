@@ -98,6 +98,8 @@ We can observe in above figure, the results fetched by the PECMD command for the
 **If you wish to disable prefetch, you can do so by following these steps:**
 
 1. Press the **Windows key + R** to open the Run dialog box
+
+
 2. Type **"regedit"** and press Enter
 3. In the Registry Editor, navigate to the following key: `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\PrefetchParameters`
 4. Locate the value named "**EnablePrefetcher"** and double-click it
