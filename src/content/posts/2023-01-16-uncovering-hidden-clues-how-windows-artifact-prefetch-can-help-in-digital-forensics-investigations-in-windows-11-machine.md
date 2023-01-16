@@ -40,7 +40,7 @@ Example: TOR.EXE-3D8AA4A9.pf
 
 ![](/assets/screenshot_104.png "Prefetch file naming algorithm ")
 
-**Prefetch Embedded Information:** 9 Number of Run Times Program Executed (Maximum 8 Execution Times + 1 File System Creation Time of the Prefetch File as shown in the a.bove diagram.
+**Prefetch Embedded Information:** 9 Number of Run Times Program Executed (Maximum 8 Execution Times + 1 File System Creation Time of the Prefetch File as shown in the above diagram.
 
 **File System Timestamps** 
 
