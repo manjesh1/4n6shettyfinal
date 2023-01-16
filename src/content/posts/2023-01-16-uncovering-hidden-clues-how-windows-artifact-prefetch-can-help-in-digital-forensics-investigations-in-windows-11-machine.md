@@ -2,7 +2,7 @@
 template: blog-post
 title: "Uncovering Hidden Clues: How Windows  Artifact Prefetch Can Help in
   Digital Forensics Investigations in Windows 11 Machine"
-slug: /.How-Windows-Artifact-Prefetch-Can-Help-in-Digital-Forensics-Investigations-in-Windows-11-Machine
+slug: /How-Windows-Artifact-Prefetch-Can-Help-in-Digital-Forensics-Investigations-in-Windows-11-Machine
 date: 2023-01-16 10:00
 description: prefetch
 ---
