@@ -14,10 +14,8 @@ Prefetch is a feature in Windows operating systems that stores information about
 **While analysing the prefetch files, a forensic investigator can gather several types of evidence, including:**
 
 1. **Programs that have been recently run on the computer:** The prefetch files contain a list of programs that have been run on a computer, along with the number of times they have been run and the date and time of the last execution.
-
-
-2. **Deleted Programs:** Prefetch files can contain information about files that have been deleted programs from a computer (Uninstalled), which may be useful in cases where evidence has been intentionally removed.
-3. **Execution time of programs:** Prefetch Files contain embedded information about the time taken to execute the programs, which can be useful in identifying the different run times of the programs.
+2. **Deleted Programs:** Prefetch files can contain information about progams that have been deleted programs from a computer (Uninstalled), which may be useful in cases where evidence has been intentionally removed.
+3. **Execution time of programs:** Prefetch Files contain embedded information about the date and time to execute the programs, which can be useful in identifying the different run times of the programs. 
 4. **Execution of Broken Programs:** Even an Attempt to execution of the programs will be added as an entry in the prefetch folder.
 5. **Full Path of the Program:** Prefetch files contain information about the programs that have been run on a computer, including the full path of the program executable. This information can be used to determine the location of the program on the computer's hard drive, which can be useful in identifying the source of the program and determining if it is legitimate or malicious.
 6. **Disk Volume ID:** Prefetch files also contain the Disk Volume ID of the drive where the program was located, this information can be used to identify the specific drive and partition where the program was stored, and can also be used to identify removable storage devices that have been connected to the computer. This information can be useful in identifying the origin of the program and determining whether it was run from a local drive or a removable storage device.
