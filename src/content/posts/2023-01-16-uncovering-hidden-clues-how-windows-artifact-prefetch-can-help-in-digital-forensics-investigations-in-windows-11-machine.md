@@ -10,12 +10,9 @@ Prefetch is a feature in Windows that helps the operating system quickly launch 
 
 Prefetch is a feature in Windows operating systems that stores information about recently run programs in order to speed up their launch time. The files are stored in the "Prefetch" folder located in the Windows system folder. In a forensic investigation, these files can be analyzed to determine which programs were recently run on a computer, as well as the date and time they were last executed. This information can be useful in determining the actions of a user or identifying any suspicious activity on a computer.
 
-
 **While analysing the prefetch files, a forensic investigator can gather several types of evidence, including:**
 
 1. **Programs that have been recently run on the computer:** The prefetch files contain a list of programs that have been run on a computer, along with the number of times they have been run and the date and time of the last execution.
-
-
 2. **Deleted Programs:** Prefetch files can contain information about files that have been deleted programs from a computer (Uninstalled), which may be useful in cases where evidence has been intentionally removed.
 3. **Execution time of programs:** Prefetch Files contain embedded information about the time taken to execute the programs, which can be useful in identifying the different run times of the programs.
 4. **Execution of Broken Programs:** Even an Attempt to execution of the programs will be added as an entry in the prefetch folder.
@@ -27,11 +24,9 @@ Prefetch is a feature in Windows operating systems that stores information about
 
 ## **Quick Summary of Pre-fetch:**
 
-
-
 ![](/assets/processing-tor.exe-3d8aa4a9.pf-created-on-2023-01-15-094139-modified-on-2023-01-15-094403-last-accessed-on-2023-01-15-094530-executable-name-tor.exe-hash-3d8aa4a9-file-size-bytes-78-084-version-windows-10-or-windo.png)
 
-**Prefetch Artifact Location:**` C:\Windows\Prefetch`
+**Prefetch Artifact Location:**`C:\Windows\Prefetch`
 
 **Prefetch Files Extension:** .pf
 
@@ -55,6 +50,70 @@ Example: TOR.EXE-3D8AA4A9.pf
 > Note 2: To Determine File Creation and last Executed time minus 10 seconds from the given file system timestamps, as the file doesn’t get created until 10 seconds after each execution as the prefetch service will monitor everything the application touches first 10 seconds of execution.
 > Last Accessed: Last execution Time (Same as last run time embedded in .pf file)
 
-**Case  Scenario: P﻿refetch Analysis on Latest Windows 11 OS** 
+**Case  Scenario: P﻿refetch Analysis on Latest Windows 11 OS**
 
-d
+![](/assets/processing-tor.exe-3d8aa4a9.pf-created-on-2023-01-15-094139-modified-on-2023-01-15-094403-last-accessed-on-2023-01-15-094530-executable-name-tor.exe-hash-3d8aa4a9-file-size-bytes-78-084-version-windows-10-or-w-3-.png)
+
+In our experiment, we export the selected prefetch file (TOR.exe) based on above case scenario, and it will be analyzed using free & open source Tool. 
+
+Tool Used: PECMD (Prefetch Explorer Command Line v1.5.0.0) by Eric Zimmerman 
+
+![](/assets/processing-tor.exe-3d8aa4a9.pf-created-on-2023-01-15-094139-modified-on-2023-01-15-094403-last-accessed-on-2023-01-15-094530-executable-name-tor.exe-hash-3d8aa4a9-file-size-bytes-78-084-version-windows-10-or-w-4-.png)
+
+**Results:**
+
+The new version of the tool even indicates Windows Version as 11 and Executable True  Flag. We can find files opened by the application (Tor.exe) within 10 seconds of it execution which includes the full path of executable and also extracts volume information, directory and files referenced, Last run times.
+
+**Full Path of the Tor:**`\USERS\STARWHAT LUFFY\DESKTOP\TOR BROWSER\BROWSER\TORBROWSER\TOR\TOR.EXE`
+
+**Disk Volume ID:** 7226EC21              |         **Number of TOR executed:** 3 
+
+**First Time Program Executed:** 2022-01-11 08:26:57 **Last Run:** 2022-01-11 10:02:39
+
+**Traces of AntiForensics Tools**
+
+**Objectives:**
+
+* Find the Execution of SDelete Application.
+* Usage of SDelete Tool to Delete Tor Browser. 
+
+SDelete is a data wiping tool and an excellent Antiforensic tool as it is signed by Microsoft. SDelete is a tool that irrecoverably deletes files, conforming to U.S. Department of Defense standard DoD 5220.22-M for the handling of classified information.
+
+![](/assets/processing-tor.exe-3d8aa4a9.pf-created-on-2023-01-15-094139-modified-on-2023-01-15-094403-last-accessed-on-2023-01-15-094530-executable-name-tor.exe-hash-3d8aa4a9-file-size-bytes-78-084-version-windows-10-or-w-5-.png)
+
+We can observe in above figure, the results fetched by the PECMD command for the SDELETE.EXE-FDA5B8E8.pf prefetch file concludes that SDelete has touched File's and Directory of the Tor Browser (Installed Folder) within 10 seconds (i.e: SDelete has Wiped Tor Browser Installed Folder which was saved in the Desktop)
+
+**Overall Results:** 
+
+**SDelete Path:** `\VOLUME{01d7f48026d4004b-7226ec21}\USERS\STARWHAT LUFFY\DOCUMENTS\SDELETE\SDELETE.EXE (Executable: True)`
+
+**Volume Serial Number:** 7226EC21 (Serial Number of the Disk where SDelete was executed)
+
+**Number of Times SDelete was Executed:** 9
+
+**Created on:** 2022-01-11 10:04:34 (Filesystem Time)
+**First Time Program Executed:** 2022-01-11 10:05:42
+**Last accessed on:** 2022-01-11 10:52:39
+
+**If you wish to disable prefetch, you can do so by following these steps:**
+
+1. Press the **Windows key + R** to open the Run dialog box
+2. Type **"regedit"** and press Enter
+3. In the Registry Editor, navigate to the following key: `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\PrefetchParameters`
+4. Locate the value named "**EnablePrefetcher"** and double-click it
+5. Change the value data to **"0"** (without quotes) and click OK.
+
+Disabling prefetch will prevent Windows from creating new prefetch files and the existing prefetch files will not be updated. However, it's worth noting that disabling prefetch may slightly increase the time it takes for programs to launch, as the system will not have information about the program's execution history to optimize the launch process.
+It's also worth noting that this modification will only affect the current user and not the entire system. If you need to disable prefetch for all users, you will have to repeat the above steps for each user account.
+
+The EnablePrefetcher setting in Windows can have different values, which control the behavior of the prefetcher. The possible values are:
+
+•	0: Disables the prefetcher.
+
+•	1: Enables the prefetcher for application launch prefetching.
+
+•	2: Enables the prefetcher for boot prefetching.
+
+•	3: Enables both application launch and boot prefetching. This is the default value.
+
+In conclusion, the Windows Prefetch files are valuable artifacts for forensic investigators as they can provide useful information about the execution of programs on a computer. The information contained in the Prefetch files can be used to reconstruct the activities of a user and to determine whether certain programs were used in connection with criminal activity. Some important information that can be obtained from analyzing Prefetch files include the names of the executed programs, their execution path, the timestamp of the execution, and the number of times the program has been run. Additionally, Prefetch files can be used to detect any anomalies such as the execution of unknown programs or execution at unusual times. It is important to note that the prefetch files can be modified or deleted, so
