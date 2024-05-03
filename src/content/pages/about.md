@@ -5,7 +5,7 @@ title: About Me
 ---
 <span style="color:blue"> **`> Whoami`** </span>
 
-`Manjesh Shetty | SANS GCFA | SANS GCIH | Works at Data Security Council of India | Deputed to CCITR, CID HQ | DC FAN | Anime Fan | Blogger | Founder - `[``](www.gopcsoft.com)``[`GOPCSOFT.COM`](www.gopcsoft.com)` Blog`
+`Manjesh Shetty | SANS GCFA | SANS GCIH | Works at Data Security Council of India | Anime Fan | Blogger | Founder -`[``](www.gopcsoft.com)``[`GOPCSOFT.COM`](www.gopcsoft.com)`Blog`
 
 #### `> ls`
 
