@@ -47,8 +47,8 @@
     "react-dom": "^16.14.0",
     "react-helmet": "^6.1.0",
     "react-icons": "^3.11.0",
-    "sass": "^1.49.7"
-    "sharp": "^0.32.6"
+    "sass": "^1.49.7",
+    "sharp": "^0.32.6",
     "theme-ui": "^0.6.2"
   },
   "devDependencies": {
