@@ -1,28 +1,24 @@
 {
   "name": "@stackrole/gatsby-starter-foundation",
-  "description": "A starter to launch your blazing fast personal website and a blog, Built with Gatsby and Netlify CMS. Made with ❤ by Stackrole",
+  "description": "A starter to launch your blazing fast personal website and a blog, Built with Gatsby and Netlify CMS.",
   "version": "2.0.0",
+  "private": true,
   "author": "Stackrole <stackrole@gmail.com>",
   "license": "MIT",
   "engines": {
-  "node": "18.x"
-}
-},
+    "node": "18.x"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/stackrole/gatsby-starter-foundation.git"
   },
-  "bugs": {
-    "url": "https://github.com/stackrole/gatsby-starter-foundation/issues"
-  },
   "scripts": {
     "build": "gatsby build --log-pages",
     "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\""
   },
   "dependencies": {
     "@gatsby-contrib/gatsby-plugin-elasticlunr-search": "^3.0.2",
