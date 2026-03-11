@@ -1,7 +1,7 @@
 ---
 template: blog-post
 title: "Cryptocurrency Forensics: What Digital Artifacts Tell Investigators"
-slug: Cryptocurrency_Forensics
+slug: /Cryptocurrency_Forensics
 date: 2026-01-15 11:20
 description: Cryptocurrency investigations often look mysterious from the
   outside. People imagine complex blockchain analysis and advanced cryptography.
